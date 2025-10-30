@@ -8,7 +8,7 @@ import { MailIcon, CheckCircleIcon, XCircleIcon } from '@heroicons/react/outline
 const MySwal = withReactContent(Swal);
 
 // URL base del backend (ajustada para local; cambia si usas Render)
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://backendcorreo.onrender.com";
 
 function VerificacionCorreo() {
   const [verificationCode, setVerificationCode] = useState("");

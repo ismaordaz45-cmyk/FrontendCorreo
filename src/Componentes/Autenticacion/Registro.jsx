@@ -9,7 +9,7 @@ import sha1 from "js-sha1";
 const MySwal = withReactContent(Swal);
 
 // URL base del backend (ajustada para local; cambia si usas Render)
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://backendcorreo.onrender.com";
 
 function RegistroUsuarios() {
   const navigate = useNavigate();
