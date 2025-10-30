@@ -478,7 +478,6 @@ function RegistroUsuarios() {
                 >
                   <option value="">Selecciona tu tipo de usuario</option>
                   <option value="Cliente">Cliente</option>
-                  <option value="Propietario">Propietario</option>
                 </select>
                 {formErrors.tipousuario && <p className="error-message"><span>⚠</span> {formErrors.tipousuario}</p>}
               </div>
